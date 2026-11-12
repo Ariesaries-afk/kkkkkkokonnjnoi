@@ -1,0 +1,255 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  position: relative;
+}
+
+
+        
+/* Background gambar */
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+
+    background-image: url("image/index/BG1.jpg");
+    background-size: cover;
+    background-position: center;
+
+    filter: blur(8px);
+    transform: scale(1.1);
+
+    z-index: -1;
+}
+
+/* Kotak */
+        
+.kotak {
+    background-color: rgb(0, 0, 0);
+    width: 1000px;
+    padding: 30px;
+    margin: 0 auto 30px;
+    border-radius: 15px;
+    color: white;
+}
+.kotak2 {
+    background-color: rgb(26, 27, 27);
+    width: 1000px;
+    height: 5px;
+    padding: 20px 40px;
+    margin: 30px auto;
+    border-radius: 6px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.kotak3 {
+    background-color: rgb(26, 27, 27);
+    width: 900px;
+    height: 5px;
+    padding: 20px 40px;
+    margin: 30px auto;
+    border-radius: 6px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+/* ZONA FONT */
+.center-hijau {
+text-align: center;
+color: rgb(0, 200, 255);
+}
+
+.hijau {
+    color: rgb(0, 200, 255);
+}
+
+h1 {
+    font-family: Georgia, serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+h2 {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+p {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: white;
+    line-height: 1.6;
+}
+
+h2 {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.game {
+    text-align: center;
+}
+
+.link1 {
+    color: #4bc9ff;
+    text-decoration: none;
+    margin: 8px;
+}
+
+.link2 {
+    color: #00d8c6;
+    text-decoration: none;
+    margin: 8px;
+}
+
+.link1:hover {
+    color: #77ffbf;
+    text-decoration: none;
+    margin: 8px;
+    transform: scale(1.1);
+}
+
+.link2:hover {
+    color: #8af3ff;
+    text-decoration: none;
+    margin: 8px;
+    transform: scale(1.1);
+}
+
+.link1:active {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 8px;
+    transform: scale(0.9);
+}
+
+.link2:active {
+    color: #eff4f2;
+    text-decoration: none;
+    margin: 8px;
+    transform: scale(0.9);
+}
+
+
+
+
+/* GAMBAR */
+.gambar-container {
+    display: flex;
+    gap: 20px;
+}
+
+.gambar1:hover {
+    transform: scale(1.1);
+}
+
+.gambar-container img {
+    width: 260px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.kotakimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kotakimg img {
+    display: block;
+    width: 600px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.judulimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.judulimg img {
+    display: block;
+    width: 600px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/* button */
+.btn1 {
+  display: block;
+  width: 120px;
+  margin: 20px auto;
+  text-align: center;
+  background-color: #00ff3c;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.btn1:hover {
+  display: block;
+  width: 120px;
+  margin: 20px auto;
+  text-align: center;
+  background-color: #00ff88;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  transform: scale(1.1);
+}
+.btn1:active {
+  display: block;
+  width: 120px;
+  margin: 20px auto;
+  text-align: center;
+  background-color: #00ff88;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  transform: scale(0.8);
+}
+
+
+.genre-tombol {
+    margin-bottom: 50px;
+}
+
+
+.genre-swipe {
+    border: 1px solid #0000ff;
+    border-radius: 5px;
+    padding: 10px;
+    background: linear-gradient(to right, #008eb2, #03c7ee);
+}
+
+.genre-swipe:hover {
+    filter: brightness(120%);
+    transform: scale(1.5);
+}
+
+a {
+    color:white;
+    text-decoration: none;
+}
+
+.link1, .link2, .link3 {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
